@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-const routes = [
+export const routes = [
   {
     path: '/',
     component: Home
@@ -60,6 +60,22 @@ const routes = [
   {
     path: '/layout/z-index',
     component: () => import(/* webpackChunkName: "layout" */ '@/views/layout/ZIndex.vue')
+  },
+  {
+    path: '/flexbox/flex-direction',
+    component: () => import(/* webpackChunkName: "flexbox" */ '@/views/flexbox/FlexDirection.vue')
+  },
+  {
+    path: '/flexbox/flex-wrap',
+    component: () => import(/* webpackChunkName: "flexbox" */ '@/views/flexbox/FlexWrap.vue')
+  },
+  {
+    path: '/flexbox/flex',
+    component: () => import(/* webpackChunkName: "flexbox" */ '@/views/flexbox/Flex.vue')
+  },
+  {
+    path: '/flexbox/flex-grow',
+    component: () => import(/* webpackChunkName: "flexbox" */ '@/views/flexbox/FlexGrow.vue')
   },
 ]
 
