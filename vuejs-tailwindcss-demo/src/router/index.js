@@ -362,8 +362,108 @@ export const routes = [
     component: () => import(/* webpackChunkName: "borders" */ '@/views/borders/RingOffsetWidth.vue')
   },
   {
-    path: '/borders/ring-offset-width',
+    path: '/borders/ring-offset-color',
     component: () => import(/* webpackChunkName: "borders" */ '@/views/borders/RingOffsetColor.vue')
+  },
+  {
+    path: '/effects/box-shadow',
+    component: () => import(/* webpackChunkName: "effects" */ '@/views/effects/BoxShadow.vue')
+  },
+  {
+    path: '/effects/opacity',
+    component: () => import(/* webpackChunkName: "effects" */ '@/views/effects/Opacity.vue')
+  },
+  {
+    path: '/tables/border-collapse',
+    component: () => import(/* webpackChunkName: "tables" */ '@/views/tables/BorderCollapse.vue')
+  },
+  {
+    path: '/tables/table-layout',
+    component: () => import(/* webpackChunkName: "tables" */ '@/views/tables/TableLayout.vue')
+  },
+  {
+    path: '/transitions-and-animation/transition-property',
+    component: () => import(/* webpackChunkName: "transitions-and-animation" */ '@/views/transitions-and-animation/TransitionProperty.vue')
+  },
+  {
+    path: '/transitions-and-animation/transition-duration',
+    component: () => import(/* webpackChunkName: "transitions-and-animation" */ '@/views/transitions-and-animation/TransitionDuration.vue')
+  },
+  {
+    path: '/transitions-and-animation/transition-timing-function',
+    component: () => import(/* webpackChunkName: "transitions-and-animation" */ '@/views/transitions-and-animation/TransitionTimingFunction.vue')
+  },
+  {
+    path: '/transitions-and-animation/transition-delay',
+    component: () => import(/* webpackChunkName: "transitions-and-animation" */ '@/views/transitions-and-animation/TransitionDelay.vue')
+  },
+  {
+    path: '/transitions-and-animation/animation',
+    component: () => import(/* webpackChunkName: "transitions-and-animation" */ '@/views/transitions-and-animation/Animation.vue')
+  },
+  {
+    path: '/transforms/transform',
+    component: () => import(/* webpackChunkName: "transforms" */ '@/views/transforms/Transform.vue')
+  },
+  {
+    path: '/transforms/transform-origin',
+    component: () => import(/* webpackChunkName: "transforms" */ '@/views/transforms/TransformOrigin.vue')
+  },
+  {
+    path: '/transforms/scale',
+    component: () => import(/* webpackChunkName: "transforms" */ '@/views/transforms/Scale.vue')
+  },
+  {
+    path: '/transforms/rotate',
+    component: () => import(/* webpackChunkName: "transforms" */ '@/views/transforms/Rotate.vue')
+  },
+  {
+    path: '/transforms/translate',
+    component: () => import(/* webpackChunkName: "transforms" */ '@/views/transforms/Translate.vue')
+  },
+  {
+    path: '/transforms/skew',
+    component: () => import(/* webpackChunkName: "transforms" */ '@/views/transforms/Skew.vue')
+  },
+  {
+    path: '/interactivity/appearance',
+    component: () => import(/* webpackChunkName: "interactivity" */ '@/views/interactivity/Appearance.vue')
+  },
+  {
+    path: '/interactivity/cursor',
+    component: () => import(/* webpackChunkName: "interactivity" */ '@/views/interactivity/Cursor.vue')
+  },
+  {
+    path: '/interactivity/outline',
+    component: () => import(/* webpackChunkName: "interactivity" */ '@/views/interactivity/Outline.vue')
+  },
+  {
+    path: '/interactivity/pointer-events',
+    component: () => import(/* webpackChunkName: "interactivity" */ '@/views/interactivity/PointerEvents.vue')
+  },
+  {
+    path: '/interactivity/resize',
+    component: () => import(/* webpackChunkName: "interactivity" */ '@/views/interactivity/Resize.vue')
+  },
+  {
+    path: '/interactivity/user-select',
+    component: () => import(/* webpackChunkName: "interactivity" */ '@/views/interactivity/UserSelect.vue')
+  },
+  {
+    path: '/svg/fill',
+    component: () => import(/* webpackChunkName: "svg" */ '@/views/svg/Fill.vue')
+  },
+  {
+    path: '/svg/stroke',
+    component: () => import(/* webpackChunkName: "svg" */ '@/views/svg/Stroke.vue')
+  },
+  {
+    path: '/svg/stroke-width',
+    component: () => import(/* webpackChunkName: "svg" */ '@/views/svg/StrokeWidth.vue')
+  },
+  {
+    path: '/accessibility/screen-readers',
+    component: () => import(/* webpackChunkName: "svg" */ '@/views/accessibility/ScreenReaders.vue')
   },
 ]
 
